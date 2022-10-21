@@ -25,6 +25,10 @@ body{
     font-weight: 700;
 }
 
+.card .info-pessoal h1, .dados-redes .info .dados-numeros{
+    font-size: 20px;
+}
+
 .container{
     display: flex;
     align-items: center;
