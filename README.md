@@ -19,7 +19,7 @@ This is a solution to the [Profile card component challenge on Frontend Mentor](
 
 ### Links
 
-- [Repositório no Github:](https://github.com/liaonaga/curso-dev-quest/tree/master/exercicio-html-css-avan%C3%A7ado)
+- [Repositório no Github:](https://github.com/liaonaga/profile-card-component-solution)
 
 ## Meu processo:
 
