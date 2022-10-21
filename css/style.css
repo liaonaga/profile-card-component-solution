@@ -1,0 +1,87 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap');
+
+:root{  
+    --background-color: hsl(185, 75%, 39%);
+    --text-color: hsl(227, 10%, 46%);
+    --card-color: hsl(0, 0%, 59%);
+}
+
+body{
+    background-color: hsl(185, 75%, 39%);
+    
+    font-family: 'Kumbh Sans', sans-serif;
+    font-size: 18px;
+
+    height: 100vh;
+}
+
+.card .info-pessoal h1, .dados-redes .info .dados-numeros{
+    font-weight: 700;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.linha{
+    width: 100%;
+    margin-bottom: 25px;
+    border-top: 1px solid var(--card-color);
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
+    background-color: #fff;
+    border-radius: 10px;
+    margin: 20px;
+
+    width: 330px;
+    height: 350px;
+}
+
+.card .info-pessoal{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    gap: 10px;  /* o que é GAP?*/
+    height: 100%;
+}
+.card .info-pessoal img{
+    border-radius: 50%;
+    margin-top: 20px;
+}
+
+.card .dados-redes{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+    width: 100%;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+.card .info-pessoal .idade,
+.card .info-pessoal .cidade, 
+.dados-redes .info{
+    color: var(--text-color);
+}
+
+.dados-redes .info span{
+    color: black;
+}
